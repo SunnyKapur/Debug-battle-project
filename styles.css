@@ -891,11 +891,11 @@ img {
   .careers-header {
     grid-template-columns: 180px 1fr;
   }
-
+/* 
   .careers-content {
     grid-template-columns: 1fr;
     gap: 30px;
-  }
+  } */
 
   
   /* .gallery-grid {
