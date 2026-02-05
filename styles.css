@@ -39,11 +39,11 @@ img {
 }
 
 
-/* .container {
+.container {
   max-width: 1200;
   margin: 0 auto;
   padding: 0 20px;
-} */
+}
 
 /* done */
 .btn {
@@ -867,7 +867,7 @@ img {
 /*  Responsive Design  */
 
 /* Tablet - Large */
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
   .header-container {
     padding: 14px 24px;
   }
@@ -891,19 +891,19 @@ img {
   .careers-header {
     grid-template-columns: 180px 1fr;
   }
-/* 
+
   .careers-content {
     grid-template-columns: 1fr;
     gap: 30px;
-  } */
+  }
 
   
-  /* .gallery-grid {
+  .gallery-grid {
     height: auto;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 12px;
-  } */
+  }
 
   /* .gallery-item:nth-child(n) {
     aspect-ratio: 4/3;
